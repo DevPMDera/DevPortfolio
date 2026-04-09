@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Devfolio Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    
+    <main class="main-content">
+      <div class="logo"><img src="https://cdn-icons-png.flaticon.com/128/2282/2282188.png" alt="Profile Image" class="logo-img">DEVFOLIO</div>
+      
+      <div class="d-row-a">
+      <div class="profile-image">
+        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=500&q=80" alt="Profile Image">
+      </div>
+      
+      <section class="hero">
+        <span class="role">Website Developer</span>
+        <h1>Nweke Chidera</h1>
+        <p>
+          A passionate software engineer with a strong background </br> in Computer Science.
+        </p>
+
+        <div class="hero-buttons">
+          <button><i class="fa-regular fa-envelope"></i> deraiphone2025@gmail.com</button>
+          <button><i class="fa-solid fa-phone"></i> +234 814 367 5326</button>
+        </div>
+      </section>
+  </div>
+      
+      <div class="d-row-b"> 
+      <div class="about-card">
+        <h3>About</h3>
+        <p>
+          A passionate software engineer with a strong background in Computer Science.
+        </p>
+
+        <div class="info-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Cairo, Egypt</span>
+        </div>
+
+        <div class="info-item">
+          <i class="fa-solid fa-briefcase"></i>
+          <span>TechGulf Solutions</span>
+        </div>
+
+        <div class="info-item">
+          <i class="fa-solid fa-globe"></i>
+          <span>https://example.com</span>
+        </div>
+      </div>
+
+      <section class="tabs-section">
+        <div class="tabs">
+          <button class="tab-btn active" data-tab="projects">Projects</button>
+          <button class="tab-btn" data-tab="resume">Resume</button>
+          <button class="tab-btn" data-tab="contact">Contact</button>
+        </div>
+
+        <div class="tab-content active" id="projects">
+          <div class="projects-grid">
+            <div class="project-card">
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="Project">
+              <span>Web App</span>
+              <h3>Pixstock - Stock Media App</h3>
+            </div>
+
+            <div class="project-card">
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" alt="Project">
+              <span>Web App</span>
+              <h3>Cook.io - Recipe App</h3>
+            </div>
+
+            <div class="project-card">
+              <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80" alt="Project">
+              <span>Web App</span>
+              <h3>GitFinder - Github User Finder</h3>
+            </div>
+
+            <div class="project-card">
+              <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80" alt="Project">
+              <span>Web App</span>
+              <h3>Weatherio - Live Weather App</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-content" id="resume">
+          <div class="resume-grid">
+            <div>
+              <h3>Experience</h3>
+              <div class="resume-item">
+                <h4>Software Engineer, TechGulf Solutions</h4>
+                <span>2018 - Present</span>
+                <p>Led the development of a customer management system.</p>
+              </div>
+
+              <div class="resume-item">
+                <h4>Software Developer Intern, ByteOasis</h4>
+                <span>2016 - 2017</span>
+                <p>Assisted in the development and testing of mobile applications.</p>
+              </div>
+            </div>
+
+            <div>
+              <h3>Skills</h3>
+              <div class="skills-grid">
+                <div class="skill-box">HTML5</div>
+                <div class="skill-box">CSS3</div>
+                <div class="skill-box">JavaScript</div>
+                <div class="skill-box">React.js</div>
+                <div class="skill-box">Node.js</div>
+                <div class="skill-box">GitHub</div>
+                <div class="skill-box">MongoDB</div>
+                <div class="skill-box">VS Code</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-content" id="contact">
+          <div class="contact-grid">
+            <div class="contact-info">
+              <h3>Contact Info</h3>
+              <p><i class="fa-regular fa-envelope"></i> khalid@techgulf.com</p>
+              <p><i class="fa-solid fa-phone"></i> +213908539206</p>
+              <p><i class="fa-solid fa-location-dot"></i> Cairo Governorate, Egypt</p>
+            </div>
+
+            <form class="contact-form">
+              <input type="text" placeholder="Name" required>
+              <input type="email" placeholder="Email" required>
+              <input type="text" placeholder="Subject">
+              <textarea placeholder="Message" rows="5"></textarea>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+  </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
