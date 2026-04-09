@@ -69,7 +69,7 @@ body {
 
 .about-card {
   padding: 25px;
-  margin: 20px 0px;
+  margin: 50px 0px;
   height: 350px;
 }
 
@@ -94,7 +94,7 @@ body {
 }
 
 .hero{
-  margin-top: 80px;
+  margin-top: 0px;
 }
 
 .hero h1 {
@@ -262,4 +262,5 @@ body {
   .hero-buttons button{
     justify-content: space-between;
   }
+ 
 }
