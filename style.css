@@ -26,7 +26,7 @@ body {
 }
 
 .logo {
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 700;
   padding-bottom: 10px;
 }
@@ -48,12 +48,14 @@ body {
   flex-direction: row;
   gap: 20px;
   margin-top: 50px;
+  justify-content: center; 
 }
 
 .d-row-b{
   display: flex;
   flex-direction: row;
   gap: 20px;
+  justify-content: center;
 }
 
 .about-card,
@@ -70,7 +72,7 @@ body {
 .about-card {
   padding: 25px;
   margin: 50px 0px;
-  height: 350px;
+  height: 380px;
 }
 
 .about-card h3,
@@ -83,6 +85,7 @@ body {
   color: #b8b8c7;
   line-height: 1.8;
   margin-bottom: 20px;
+  white-space: nowrap;
 }
 
 .info-item {
@@ -128,10 +131,16 @@ body {
   border-radius: 10px;
 }
 
+.tabs-content{
+  width: 100%;
+}
+
 .tabs {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   margin: 40px 0 30px;
   border-bottom: 1px solid rgba(255,255,255,0.1);
+  justify-content: space-between; 
 }
 
 .tab-btn {
@@ -200,6 +209,10 @@ body {
   margin-bottom: 20px;
 }
 
+.contact-info p{
+  margin-bottom: 10px;
+}
+
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -222,7 +235,8 @@ body {
   background: #0f0d16;
   border: 1px solid rgba(255,255,255,0.1);
   border-radius: 10px;
-  padding: 14px;
+  padding: 20px;
+  padding-left: 10px;
   color: #fff;
 }
 
@@ -241,6 +255,25 @@ body {
     grid-template-columns: 1fr;
   }
   
+  .container{
+    padding: 15px;
+  }
+  
+  .profile-image img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  object-fit: cover;
+  }
+  
+  .about-card{
+    font-size: 14px;
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  
   .d-row-a{
   display: flex;
   flex-direction: column;
@@ -255,12 +288,46 @@ body {
     font-size: 38px;
   }
   
+  .hero p,.role {
+    color: #b8b8c7;
+  }
+  
+  .hero p {
+    font-size: 13px;
+  }
+  
   .hero{
     margin-top: 5px;
   }
   
-  .hero-buttons button{
-    justify-content: space-between;
+  .hero-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
   }
+  
+  .hero-buttons button{
+    font-size: 11px;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  .tabs {
+  display: flex;
+  margin: 10px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+  
+  .tab-btn {
+  background: transparent;
+  color: #b8b8c7;
+  padding: 15px 20px;
+  font-size: 16px;
+  }
+  
+  .project-card {
+  overflow: hidden;
+  padding-bottom: 20px;
+  } 
  
 }
