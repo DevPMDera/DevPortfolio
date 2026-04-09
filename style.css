@@ -13,7 +13,7 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: 320px 1fr;
+  grid-template-columns: 100% 1fr;
   gap: 40px;
   padding: 40px;
   min-height: 100vh;
