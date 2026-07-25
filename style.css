@@ -309,8 +309,6 @@ body.dark-mode .contact-info p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
-  background-color: green;
-  width: 100%;
 }
 
 .resume-item,
